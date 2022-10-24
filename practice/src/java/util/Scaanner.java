@@ -1,0 +1,11 @@
+package java.util;
+public class Scaanner {
+	public static void main(String[] args) {
+		System.out.println("Main ends");
+		if (5>3) {
+			System.out.println("Hi");
+			System.out.println("Hello");
+			System.out.println("main starts");
+		}
+	}
+}

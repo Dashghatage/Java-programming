@@ -1,0 +1,18 @@
+package Fibonacci;
+
+public class Fbno1 {
+	public static void main(String[] args) {
+		int f1=15;
+		int f2=16;
+		int f3;
+		System.out.println(f1+" "+f2);
+		for(int i=15;i<=30;i++)
+		{
+			f3=f1+f2;
+			f1=f2;
+			f2=f3;
+			System.out.println(f3+" ");
+		}
+	}
+
+}

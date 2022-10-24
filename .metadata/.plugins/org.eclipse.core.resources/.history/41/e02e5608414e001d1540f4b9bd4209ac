@@ -1,0 +1,14 @@
+package school;
+
+import java.util.Scanner;
+
+public class Monday {
+	public static void main(String[] args) {
+		String s1="Avaj";
+		String s2="";
+		for (int i =s1.length();i>0; i--) {
+			s2=s2+s1.charAt(i);
+		}
+		System.out.println(s2);
+	}
+}

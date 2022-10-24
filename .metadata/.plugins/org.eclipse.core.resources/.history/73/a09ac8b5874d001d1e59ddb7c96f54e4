@@ -1,0 +1,17 @@
+package Dash;
+
+import java.sql.*;
+
+public class Sample {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sunday", "root", "root");
+		Statement st = con.createStatement();
+		// st.execute("create database sunday");
+		// st.execute("create table funday(Id integer primary key,Name
+		// varchar(45),mobile bigint,address varchar(45))");
+        st.execute("alter funday add Mobile bigint unique");
+		System.out.println("Done");
+		con.close();
+	}
+}

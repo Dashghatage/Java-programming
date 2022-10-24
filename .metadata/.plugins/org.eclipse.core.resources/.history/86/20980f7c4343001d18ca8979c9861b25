@@ -1,0 +1,8 @@
+package Advance_java;
+import java.sql.*;
+import java.util.*;
+public class EWIT {
+public static void main(String[] args) {
+	Connection con =DriverManager.getConnection("jdbc:mysql://localhost:3306","root");
+}
+}

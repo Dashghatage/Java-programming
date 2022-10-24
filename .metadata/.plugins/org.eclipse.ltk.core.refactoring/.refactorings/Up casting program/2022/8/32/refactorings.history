@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Upcastingtopic.Mainclass7&apos; to &apos;Mainclass6&apos;&#x0D;&#x0A;- Original project: &apos;Up casting program&apos;&#x0D;&#x0A;- Original element: &apos;Upcastingtopic.Mainclass7&apos;&#x0D;&#x0A;- Renamed element: &apos;Upcastingtopic.Mainclass6&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Mainclass7&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Upcastingtopic{Mainclass7.java[Mainclass7" matchStrategy="1" name="Mainclass6" qualified="false" references="true" similarDeclarations="false" stamp="1659376693861" textual="false" version="1.0"/>
+</session>

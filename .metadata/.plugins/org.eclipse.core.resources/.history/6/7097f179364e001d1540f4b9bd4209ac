@@ -1,0 +1,19 @@
+package school;
+
+public class Monday {
+public static void main(String[] args) {
+	int no=14241;
+	int copy=no;
+	int sum=0;
+    while (no!=0) {
+		int rem=no%10;
+		sum=(sum*10)+rem;
+		no=no/10;
+	}	
+    if (sum==copy) {
+		System.out.println("no is palindrome");
+	} else {
+     System.out.println("no is not palindrome");
+	}
+}
+}

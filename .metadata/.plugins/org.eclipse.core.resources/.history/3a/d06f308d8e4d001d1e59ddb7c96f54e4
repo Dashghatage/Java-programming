@@ -1,0 +1,18 @@
+package Dash;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class Demo {
+public static void main(String[] args) throws ClassNotFoundException, SQLException {
+	Class.forName("com.mysql.cj.jdbc.Driver");
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/holiday","root","root");
+	//PreparedStatement pt=con.prepareStatement("create database holiday");
+	PreparedStatement pt=con.prepareStatement("insert into Sunday value(id integer,Name varchar(40),Mobile bigint,Address varchar(40))");
+	pt.execute();
+	System.out.println("Done");
+	con.close();
+}
+}

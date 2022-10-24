@@ -1,0 +1,14 @@
+package util;
+public class Circle {
+	void area()
+	{
+		final double pi=3.142;
+		double result=pi*r*r;
+		System.out.println(result);
+	}
+	public static void main(String[]args){
+		Scanner s1=new Scanner(System.in);
+		s1.area(5);
+	}
+
+}

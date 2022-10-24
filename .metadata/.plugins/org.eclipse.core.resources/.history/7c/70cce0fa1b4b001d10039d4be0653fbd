@@ -1,0 +1,23 @@
+package practiccc;
+
+import java.util.Scanner;
+
+public class Tester {
+	private static Scanner Scanner;
+	static void add()
+	{
+		
+	}
+	static void mul()
+	{
+		
+	}
+	static void sub()
+	{
+		
+	}
+	public static void main(String[] args) {
+		Scanner=new Scanner(System.in);
+		
+	}
+}

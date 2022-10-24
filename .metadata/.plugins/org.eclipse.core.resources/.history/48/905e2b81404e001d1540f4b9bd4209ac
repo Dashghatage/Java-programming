@@ -1,0 +1,37 @@
+package school;
+
+
+
+public class Monday {
+	static void add()
+	{
+		System.out.println("additionnn");
+	}
+	static void mul()
+	{
+		System.out.println("it is mul");
+	}
+	static void sub()
+	{
+		System.out.println("it is sub");
+	}
+	public static void main(String[] args) {
+		int input=1;
+		switch (input) {
+		case 1:add();
+			
+			break;
+		case 2:mul();
+		
+		break;
+		case 3:sub();
+		
+		break;
+
+		default:System.out.println("Invalid Option");
+			break;
+		}
+	}
+}
+	
+	

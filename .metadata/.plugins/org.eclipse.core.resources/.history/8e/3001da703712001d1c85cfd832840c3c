@@ -1,0 +1,46 @@
+package polypmorphism_programm;
+class Animal
+{
+	void noise()
+	{
+		System.out.println("Some noise");
+	}
+}
+class Dog extends Animal
+{
+	void noise()
+	{
+		System.out.println("bow bow bow");
+	}
+}
+class Cat extends Animal
+{
+	void noise()
+	{
+		System.out.println("meow meow mewoo");
+	}
+}
+class Snake extends Animal
+{
+	void noise()
+	{
+		System.out.println("hiss tisss fiss");
+	}
+}
+class Stimulator
+{
+	static void ansim(Animal a1)
+	{
+		a1.noise();
+	}
+}
+public class Mainclass {
+	public static void main(String[] args) {
+		Animal a1=new Dog();
+		a1.noise();
+		Dog d1=(Dog)a1;
+		Cat c1=(Cat)a1;
+		Snake s1=(Snake)a1;
+		d1.noise();
+	}
+}

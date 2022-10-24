@@ -1,0 +1,22 @@
+package Upcastingtopic;
+class Tester
+{
+	int x=10;
+	void disp()
+	{
+		System.out.println("disp..");
+	}
+}
+class Hullyacha extends Tester
+{
+	void ho()
+	{
+		System.out.println("HOhooooo");
+	}
+}
+public class Mainclass8 {
+public static void main(String[] args) {
+	Tester t1=new Hullyacha();
+	System.out.println();
+}
+}

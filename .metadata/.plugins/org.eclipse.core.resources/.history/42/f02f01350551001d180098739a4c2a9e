@@ -1,0 +1,38 @@
+package school;
+
+import java.util.List;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+import javax.persistence.Query;
+
+public class FetchDetails {
+public static void main(String[] args) {
+	EntityManagerFactory p=Persistence.createEntityManagerFactory("dev");
+	EntityManager c=p.createEntityManager();
+	EntityTransaction t=c.getTransaction();
+	
+	//****To Fetch All Details In Table***//
+	
+	
+//    Query q=c.createQuery("select w from Demo w",Demo.class);
+//    List<Demo>l=q.getResultList();
+//    for(Demo d:l){
+//    	System.out.println(d.getId()+" "+d.getName()+" "+d.getCompanyName()+" "+d.getLocation());
+	
+	
+	      //***To Delete the complete Record in Table***//
+	
+	    Query q=c.createQuery("delete from Demo");
+	    t.begin();
+	    q.executeUpdate();
+	    t.commit();
+	
+	
+	
+    }
+
+}
+

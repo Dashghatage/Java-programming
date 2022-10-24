@@ -1,0 +1,58 @@
+package school;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
+
+public class Mainclass {
+public static void main(String[] args) {
+	EntityManagerFactory p=Persistence.createEntityManagerFactory("dev");
+	EntityManager c=p.createEntityManager();
+	EntityTransaction t=c.getTransaction();
+	Demo e=new Demo();
+	
+	//***Adding value***//
+//	Demo d=new Demo();
+//	d.setId(5);
+//	d.setName("Vikas");
+//	d.setCompanyName("Capgimini");
+//	d.setLocation("Hydrabad");
+//	t.begin();
+//	c.persist(d);
+//	t.commit();
+	
+	
+	//***Rename value***//
+	
+//	Demo d=c.find(Demo.class,2);
+//	while (d!=null) {
+////		d.setName("Johnson");
+////		d.setCompanyName("hp");
+//		d.setName("Swapnil");
+//		t.begin();
+//		c.merge(d);
+//		t.commit();
+	
+	
+	
+	//***Remove value**//
+	
+	
+//	Demo d=c.find(Demo.class,3);
+//	if (d!=null) {
+//		t.begin();
+//		c.remove(d);
+//		t.commit();
+//	
+	//***Fetch value***//
+	
+	Demo d=c.find(Demo.class,5);
+	if (d!=null) {
+		System.out.println(d.getId()+" "+d.getName()+" "+d.getCompanyName()+" "+d.getLocation());
+	}
+	
+	}
+}
+	
+

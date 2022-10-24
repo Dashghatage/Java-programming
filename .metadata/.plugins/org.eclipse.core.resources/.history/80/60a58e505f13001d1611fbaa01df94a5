@@ -1,0 +1,47 @@
+package Assign_polymorphism;
+class Hospital
+{
+	void treat()
+	{
+		System.out.println("some treat");
+	}
+}
+class Cardiology extends Hospital
+{
+	void treat()
+	{
+		System.out.println("treat on Heart");
+	}
+}
+class Orthopedic extends Hospital
+{
+	void treat()
+	{
+		System.out.println("treat on muscle");
+	}
+}
+class Neurology
+{
+	void treat()
+	{
+		System.out.println("treat on brain");
+	}
+}
+class Patients
+{
+	static void disease(Hospital h1)
+	{
+		h1.treat();
+	}
+}
+public class Mainclass5 {
+	public static void main(String[] args) {
+		Cardiology c1=new Cardiology();
+		Orthopedic o1=new Orthopedic();
+		Neurology n1=new Neurology();
+		Patients.disease(c1);
+		Patients.disease(o1);
+		Patients.disease(n1);
+	}
+
+}

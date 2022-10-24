@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Alphbet_pattern.Q&apos; to &apos;S&apos;&#x0D;&#x0A;- Original project: &apos;Logical_Programming&apos;&#x0D;&#x0A;- Original element: &apos;Alphbet_pattern.Q&apos;&#x0D;&#x0A;- Renamed element: &apos;Alphbet_pattern.S&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Q&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Alphbet_pattern{Q.java[Q" matchStrategy="1" name="S" qualified="false" references="true" similarDeclarations="false" stamp="1663089550402" textual="false" version="1.0"/>
+</session>

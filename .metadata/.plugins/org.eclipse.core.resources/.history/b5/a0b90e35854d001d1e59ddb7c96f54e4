@@ -1,0 +1,27 @@
+package Dash;
+
+import java.sql.*;
+
+public class Sample {
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/darshan", "root", "root");
+		Statement st = con.createStatement();
+		// st.execute("create database darshan");
+		// st.execute("create table funday(id integer primary key,Name
+		// varchar(20) not null,Mobile bigint unique,Address varchar(40))");
+		// st.execute("insert into funday
+		// values(2552,'Vikas',1234567891,'Kolhapur')");
+//		st.execute("insert into funday values(2554,'xytz',2565858,'karnataka')");
+       // st.execute("update funday set Name='Sagar' where id=2554");
+	//	st.execute("update funday set Mobile=123456782 where id=2554");
+		st.execute("update from funday set address='Maharastra' where id=2554");
+		
+		
+		
+		
+		
+		System.out.println("done");
+		con.close();
+	}
+}

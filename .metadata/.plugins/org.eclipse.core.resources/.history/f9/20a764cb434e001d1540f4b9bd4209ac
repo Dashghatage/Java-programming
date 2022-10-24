@@ -1,0 +1,13 @@
+package school;
+
+public class Monday {
+	public static void main(String[] args) {
+      String s1="javamavakfgkhkjfh";
+      int count=0;
+      for (int i=0; i <=s1.length()-1;i++) {
+		count=s1.charAt(i);
+		count++;
+	}
+      System.out.println(count);
+	}
+}

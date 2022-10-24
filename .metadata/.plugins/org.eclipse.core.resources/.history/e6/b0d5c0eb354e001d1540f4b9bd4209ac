@@ -1,0 +1,8 @@
+package school;
+
+public class Monday {
+public static void main(String[] args) {
+	String s1="kjfgkjkfg  fjgkjkfgjk  jjfgkjk  jgkjfk  jjfgkjkfjgkjkfj";
+	System.out.println(s1.replaceAll(" ", "".trim()));
+}
+}

@@ -1,0 +1,25 @@
+package Upcastingtopic;
+class Sample2
+{
+	void co()
+	{
+		System.out.println("hey coooo");
+	}
+}
+class Guleyluu extends Sample2
+{
+	void Disp()
+	{
+		System.out.println("Disply..........");
+	}
+}
+public class Mainclass6 {
+	public static void main(String[] args) {
+		Sample2 s2=new Guleyluu();
+		s2.co();
+		Guleyluu g3=(Guleyluu)s2;
+		g3.Disp();
+		g3.co();
+	}
+
+}

@@ -1,0 +1,20 @@
+package JEHM400;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class Dyanamic {
+
+	public static void main(String[] args) throws ClassNotFoundException, SQLException {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/sunday25","root","root");
+		 //PreparedStatement pt=con.prepareStatement("create database Sunday25");
+		 PreparedStatement pt=con.prepareStatement("create table Student1(Name varchar(45) primary key,id integer,gender varchar(7),phonenumber bigint not null,Address varchar(25)");
+		 //PreparedStatement pt=con.prepareStatement("Darshan,18161,Male,")
+		pt.execute();
+		System.out.println("Done");
+		con.close();
+	}
+}

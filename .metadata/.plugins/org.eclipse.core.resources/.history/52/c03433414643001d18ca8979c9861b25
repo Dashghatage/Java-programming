@@ -1,0 +1,15 @@
+package Advance_java;
+import java.sql.*;
+import java.util.*;
+public class EWIT {
+public static void main(String[] args) throws SQLException {
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","root");
+	//data base creation
+	//PreparedStatement pt=con.prepareStatement("create database college");
+	//pt.execute();
+	//create table
+   PreparedStatement pt=con.prepareStatement("create table EWIT(Name varchar(30) not null,usn varchar(10) primary key,Phonenumber bigint unique,city varchar(20),cgpa number double )");
+   pt.execute();
+	
+}
+}

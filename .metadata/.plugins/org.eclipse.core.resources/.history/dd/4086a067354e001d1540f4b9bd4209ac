@@ -1,0 +1,8 @@
+package school;
+
+public class Monday {
+public static void main(String[] args) {
+	String s1="jshhjs4567hh@#5jshjh&*ndjn||!";
+	System.out.println(s1.replaceAll("[0-9]", ""));
+}
+}

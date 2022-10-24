@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;polypmorphism_programm&apos; to &apos;Runtime_polypmorphism_programm&apos;&#x0D;&#x0A;- Original project: &apos;Polymorphism&apos;&#x0D;&#x0A;- Original element: &apos;Polymorphism/src/polypmorphism_programm&apos;&#x0D;&#x0A;- Renamed element: &apos;Polymorphism/src/Runtime_polypmorphism_programm&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;polypmorphism_programm&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;polypmorphism_programm" name="Runtime_polypmorphism_programm" qualified="false" references="true" stamp="1659499708813" textual="false" version="1.0"/>
+</session>

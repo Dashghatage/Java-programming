@@ -1,0 +1,37 @@
+package school;
+
+import java.util.Scanner;
+
+public class Monday {
+static void add()
+{
+	System.out.println("addddd");
+}
+static void mul()
+{
+	System.out.println("mulllllllllll");
+}
+static void sub()
+{
+	System.out.println("subbbb");
+}
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	int input=sc.nextInt();
+	switch (input) {
+	case 1:add();
+		
+		break;
+	case 2:mul();
+	
+	break;
+	case 3:sub();
+	
+	break;
+
+	default:System.out.println("Invalid Option");
+		break;
+	}
+	}
+}
+

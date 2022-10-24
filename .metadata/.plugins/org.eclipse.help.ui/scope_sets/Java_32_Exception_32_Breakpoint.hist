@@ -1,0 +1,6 @@
+#Fri Jul 29 01:12:38 IST 2022
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+expression=Java Exception Breakpoint

@@ -1,0 +1,13 @@
+package Factorial;
+
+public class Demo {
+public static void main(String[] args) {
+	int n0=5;
+	int fact=1;
+	for (int i=no=5;i>=1;i--)
+	{
+		fact=fact*i;
+		System.out.println(fact);
+	}
+}
+}

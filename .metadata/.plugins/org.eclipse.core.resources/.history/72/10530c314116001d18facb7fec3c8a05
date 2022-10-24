@@ -1,0 +1,17 @@
+package finding_no;
+
+public class FizzBuzz {
+	public static void main(String[] args) {
+		int a=3;
+		int b=5;
+		if((a%3==0)&&(b%5==0))
+		{
+			System.out.println("fizz buzz");
+		}else if(a%3==0){
+			System.out.println("fizz fizz");
+		}else if(b%5==0){
+			System.out.println("buzz buzz");
+		}
+	}
+
+}

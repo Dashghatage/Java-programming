@@ -1,0 +1,21 @@
+package odd_even_prog;
+
+public class Prime {
+	public static void main(String[] args) {
+		boolean flag=true;
+		int a=7;
+		for(int i=2;i<5;i++)
+		{
+			if(7%2==0)
+			{
+				flag=false;
+				break;
+			}
+		}if(flag==true){
+			System.out.println("prime no "+a);
+		}else{
+			System.out.println("not prime no "+a);
+		}
+	}	
+}
+	

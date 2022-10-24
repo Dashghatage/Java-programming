@@ -1,0 +1,10 @@
+package school;
+
+public class Monday {
+	public static void main(String[] args) {
+		String s1 = "javamava";
+		Boolean s2 = s1.substring(2,4);
+		System.out.println(s2);
+	}
+
+}

@@ -1,0 +1,24 @@
+package odd_even_prog;
+
+public class RangePrime {
+	public static void main(String[] args) {
+		for(int i=1;i<=100;i++)
+		{
+			int no=5;
+			boolean flag=true;
+			for(int j=2;j<=50;j++)
+			{
+				if(no%2==0)
+				{
+					flag=false;
+					break;
+				}
+			}
+			if(flag==true)
+			{
+				System.out.println("prime no "+no);
+			}
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+package Sample;
+import java.util.Scanner;
+public class Demo {
+	public static void main(String[] args) {
+		String str="KA-09-F1212";
+		char[] c=str.toCharArray();
+		int sum=0;
+		for (int i = 0; i < c.length; i++) {
+			if (Character.isDigit(c[i])) {
+				System.out.println("Digit in the string:"+c[i]);
+				System.out.println();
+				int a=Integer.parseInt(String.valueOf(c[i]));
+				sum=sum+a;
+			}
+		}
+		System.out.println("sum of digit is:"+sum);         
+}
+}

@@ -1,0 +1,14 @@
+package practiccc;
+
+public class Sample {
+	public static void main(String[] args) {
+		System.out.println("Main ends");
+		if (!true) {
+			System.out.println("hi");
+		} else if(! false) {
+           System.out.println("Ok");
+		}else{
+			System.out.println("Hello");
+		}
+	}
+}

@@ -1,0 +1,17 @@
+package util;
+
+import java.util.Scanner;
+public class Circle {
+	void area(int r)
+	{
+		final double pi=3.142;
+		double result=pi*r*r;
+		System.out.println(result);
+	}
+	public static void main(String[]args){
+		Scanner s1=new Scanner(System.in);
+		s1.Circle(5);
+		int a=s1.nextInt();
+	}
+
+}

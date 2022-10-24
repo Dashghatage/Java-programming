@@ -1,0 +1,23 @@
+package practiccc;
+public class Tester {	
+public static void main(String[] args) {
+	int no=145;
+	int copy=no;
+	int sum=0;
+	while (no!=0) {
+		int rem=no%10;
+		int fact=1;
+	 for (int i = rem; i >0; i--) {
+		fact=fact*i;
+		
+	}
+	 sum+=rem;
+		no=no/10;
+	}
+	if (sum==copy) {
+		System.out.println("it is Armstron number");
+	} else {
+      System.out.println("it is not Armstrong no");
+	}
+}
+}

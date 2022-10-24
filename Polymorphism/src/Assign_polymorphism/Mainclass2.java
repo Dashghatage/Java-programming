@@ -1,0 +1,47 @@
+package Assign_polymorphism;
+class ShopingMall
+{
+	void shopping()
+	{
+		System.out.println("some shopping");
+	}
+}
+class Cloths extends ShopingMall
+{
+	void shopping()
+	{
+		System.out.println("Reliance Trends");
+	}
+}
+class Food extends ShopingMall
+{
+	void shopping()
+	{
+		System.out.println("Dominoz pizza");
+	}
+}
+class Movie extends ShopingMall
+{
+	void shopping()
+	{
+		System.out.println("Inox Theater");
+	}
+}
+class Customer
+{
+	static void purchase(ShopingMall s1)
+	{
+		s1.shopping();
+	}
+}
+public class Mainclass2 {
+	public static void main(String[] args) {
+		Cloths c1=new Cloths();
+		Food f1=new Food();
+		Movie m1=new Movie();
+		Customer.purchase(c1);
+		Customer.purchase(f1);
+		Customer.purchase(m1);
+	}
+
+}

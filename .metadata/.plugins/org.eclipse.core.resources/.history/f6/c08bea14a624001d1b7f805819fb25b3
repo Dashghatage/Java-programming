@@ -1,0 +1,28 @@
+package Armstrong;
+
+
+public class Strong {
+public static void main(String[] args) {
+	int no=145;
+	int copy=no;
+	int sum=0;
+	while(no!=0)
+	{
+		int rem=no%10;
+		int fact1=1;
+	}
+	for(int i=no;i>0;i--)
+	{
+		int fact=fact*i;
+	}
+	int fact;
+	sum=sum+fact;
+	no=no/10;
+	if(copy==sum)
+	{
+		System.out.println("it is Strong number");
+	}else{
+		System.out.println("it is not Strong number");
+	}
+}
+}
